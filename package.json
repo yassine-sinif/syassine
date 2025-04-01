@@ -1,7 +1,7 @@
 {
   "name": "project001",
   "private": true,
-  "homepage": "https://yassine-sinif.github.io/yassine-sinif",
+  "homepage": "https://yassine-sinif.github.io/syassine/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.17",
