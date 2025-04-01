@@ -1,44 +1,38 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
-// Note: We don't need to import the Todo component anymore, since we'll navigate to it
 
 const projects = [
   {
     title: "To-Do List App",
-    description:
-      "A simple task manager built with React, featuring local storage support.",
+    description: "A simple task manager built with React, featuring local storage support.",
     tech: ["React", "CSS", "JavaScript"],
-    path: "/todo", // Path matching the route in App.jsx
+    path: "/todo",
     hasComponent: true,
   },
   {
     title: "Flight Management System",
-    description:
-      "A C++ program for flight scheduling, ticket bookings, and passenger management.",
+    description: "A C++ program for flight scheduling, ticket bookings, and passenger management.",
     tech: ["C++", "OOP", "File Handling"],
     link: "#",
     hasComponent: false,
   },
   {
     title: "Transport Management System",
-    description:
-      "A Laravel-based system for managing transport logistics with real-time tracking.",
+    description: "A Laravel-based system for managing transport logistics with real-time tracking.",
     tech: ["Laravel", "PHP", "JavaScript", "MySQL"],
     link: "#",
     hasComponent: false,
   },
   {
     title: "Plagiarism & Paraphrase Detection",
-    description:
-      "A Python-based system that detects plagiarism by comparing text data stored in a database.",
+    description: "A Python-based system that detects plagiarism by comparing text data stored in a database.",
     tech: ["Python", "Flask", "SQL", "Database Management"],
     link: "#",
     hasComponent: false,
   },
   {
     title: "Portfolio Website",
-    description:
-      "A responsive personal portfolio website built using React, Tailwind, and React Router.",
+    description: "A responsive personal portfolio website built using React, Tailwind, and React Router.",
     tech: ["React", "Tailwind CSS", "JavaScript", "React Router"],
     link: "#",
     hasComponent: false,
@@ -75,8 +69,6 @@ function Projects() {
             {project.hasComponent ? (
               <Link
                 to={project.path}
-                target="_blank" // Opens in a new tab
-                rel="noopener noreferrer"
                 className="text-teal-400 hover:text-teal-300 flex items-center gap-2"
               >
                 View Project <FaExternalLinkAlt />
