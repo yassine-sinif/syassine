@@ -39,7 +39,7 @@ function App() {
 
           {/* Desktop Navigation Links */}
           <div className={`${open ? "block" : "hidden"} lg:flex space-x-6 text-lg`}>
-            <Link to="/" onClick={closeMenu} className="hover:text-blue-400 transition duration-300">Home</Link>
+            <Link to="/syassine" onClick={closeMenu} className="hover:text-blue-400 transition duration-300">Home</Link>
             <Link to="/about" onClick={closeMenu} className="hover:text-blue-400 transition duration-300">About</Link>
             <Link to="/projects" onClick={closeMenu} className="hover:text-blue-400 transition duration-300">Projects</Link>
             <Link to="/contactMe" onClick={closeMenu} className="hover:text-blue-400 transition duration-300">Contact Me</Link>
@@ -57,7 +57,7 @@ function App() {
 
               {/* Mobile Navigation Links */}
               <div className="flex flex-col items-center justify-center h-full space-y-6 text-xl">
-                <Link to="/" onClick={closeMenu} className="text-white hover:text-blue-400 transition duration-300">Home</Link>
+                <Link to="/syassine" onClick={closeMenu} className="text-white hover:text-blue-400 transition duration-300">Home</Link>
                 <Link to="/about" onClick={closeMenu} className="text-white hover:text-blue-400 transition duration-300">About</Link>
                 <Link to="/projects" onClick={closeMenu} className="text-white hover:text-blue-400 transition duration-300">Projects</Link>
                 <Link to="/contactMe" onClick={closeMenu} className="text-white hover:text-blue-400 transition duration-300">Contact Me</Link>
@@ -68,7 +68,7 @@ function App() {
 
         {/* Page Routes */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/syassine" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contactMe" element={<ContactMe />} />
