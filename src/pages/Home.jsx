@@ -3,18 +3,21 @@ import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function Home() {
   return (
+    
     <div className="min-h-screen bg-gradient-to-b from-slate-950 to-slate-900 text-white relative">
       {/* Background accents */}
       <div className="absolute top-20 left-10 w-64 h-64 bg-teal-500/10 rounded-full blur-3xl"></div>
+  
       <div className="absolute bottom-20 right-10 w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl"></div>
 
       {/* Main content */}
       <main className="flex flex-col items-center justify-center px-6 py-20 relative z-10 min-h-screen">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-6xl font-bold mb-6">
+            <h2>mzal an9ad shi 7wayj flwebsite mnb3d fsh ansali lih</h2>
             <span className="text-white">Welcome to My </span>
             <span className="bg-gradient-to-r from-teal-400 to-indigo-500 text-transparent bg-clip-text">
-              Portfolio
+              Portfolio 
             </span>
           </h1>
 
