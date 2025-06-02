@@ -22,10 +22,10 @@ function Home() {
           </h1>
 
           <p className="text-xl text-slate-300 mb-10 leading-relaxed">
-            I'm a **Software Engineering student at EMSI**, currently in my third year.  
-            I specialize in **building efficient and scalable software solutions**, 
-            leveraging **modern web technologies, backend systems, and database management**.  
-            Passionate about solving **real-world problems** through **code, architecture, and automation**.
+            I'm a Software Engineering student at EMSI, currently in my third year.  
+            I specialize in building efficient and scalable software solutions, 
+            leveraging modern web technologies, backend systems, and database management.  
+            Passionate about solving real-world problems through code, architecture, and automation.
           </p>
 
           {/* Stats Section */}
@@ -35,11 +35,11 @@ function Home() {
               <div className="text-lg font-medium text-gray-300">Years of Learning</div>
             </div>
             <div className="bg-slate-800/50 backdrop-blur-md p-6 rounded-xl border border-slate-700 text-center">
-              <div className="text-teal-400 text-4xl font-bold">20+</div>
+              <div className="text-teal-400 text-4xl font-bold">10+</div>
               <div className="text-lg font-medium text-gray-300">Completed Projects</div>
             </div>
             <div className="bg-slate-800/50 backdrop-blur-md p-6 rounded-xl border border-slate-700 text-center">
-              <div className="text-teal-400 text-4xl font-bold">8+</div>
+              <div className="text-teal-400 text-4xl font-bold">15+</div>
               <div className="text-lg font-medium text-gray-300">Technologies Mastered</div>
             </div>
           </div>
