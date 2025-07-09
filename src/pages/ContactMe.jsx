@@ -60,7 +60,7 @@ const ContactMe = () => {
                   <div className="ml-4">
                     <h3 className="text-sm text-slate-400">LinkedIn</h3>
                     <a 
-                      href="https://www.linkedin.com/in/yassine-sinif" 
+                      href="https://www.linkedin.com/in/yassine-sinif-a73996241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-lg hover:text-teal-400 transition"
@@ -78,7 +78,7 @@ const ContactMe = () => {
                   <div className="ml-4">
                     <h3 className="text-sm text-slate-400">GitHub</h3>
                     <a 
-                      href="https://github.com/ysinif" 
+                      href="https://github.com/yassine-sinif" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-lg hover:text-teal-400 transition"
@@ -97,3 +97,4 @@ const ContactMe = () => {
 };
 
 export default ContactMe;
+
