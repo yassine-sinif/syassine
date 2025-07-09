@@ -6,8 +6,8 @@ const projects = [
     title: "To-Do List App",
     description: "A simple task manager built with React, featuring local storage support.",
     tech: ["React", "CSS", "JavaScript"],
-    path: "/todo",
-    hasComponent: true,
+    link: "#",
+    hasComponent: false,
   },
   {
     title: "Flight Management System",
@@ -26,7 +26,7 @@ const projects = [
   {
     title: "Plagiarism & Paraphrase Detection",
     description: "A Python-based system that detects plagiarism by comparing text data stored in a database.",
-    tech: ["Python", "Flask", "SQL", "Database Management"],
+    tech: ["Python", "Django", "SQLLITE"],
     link: "#",
     hasComponent: false,
   },
