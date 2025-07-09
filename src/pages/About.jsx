@@ -8,14 +8,24 @@ const skills = [
     icon: <FaCode className="text-teal-500 text-3xl" />,
     title: "Programming",
     description: [
+      "C",
       "C++",
       "Java",
+      "Java(swing)",
       "JavaScript",
       "TypeScript",
       "Python",
-      "PHP",
-      "Laravel",
-      ".NET"
+      "PHP"
+    ]
+  },
+  {
+    id: "framework",
+    icon: <FaCogs className="text-blue-500 text-3xl" />,
+    title: "Frameworks",
+    description: [
+      "React",
+      "Django",
+      "Laravel"
     ]
   },
   {
@@ -23,53 +33,53 @@ const skills = [
     icon: <FaDatabase className="text-yellow-500 text-3xl" />,
     title: "Databases",
     description: [
-      "MySQL",
+      "SQL",
       "SQL Server",
       "PL/SQL",
-      "NoSQL",
-      "UML",
-      "MCD",
-      "MLD",
-      "MERISE"
+      "SQL.LITE"
     ]
   },
   {
-    id: "software-design",
+    id: "scripts",
     icon: <FaCogs className="text-orange-500 text-3xl" />,
     title: "Software Design",
     description: [
-      "OOP",
-      "UML",
-      "System Architecture",
-      "Design Patterns"
+      "UNIX/Linux",
+      "Shell scripting"
     ]
   },
   {
-    id: "networking",
+    id: "conception",
     icon: <FaNetworkWired className="text-purple-500 text-3xl" />,
     title: "Networking",
     description: [
-      "Linux",
-      "Unix Shell",
-      "TCP/IP",
-      "Routing",
-      "Firewalls",
-      "Security"
+      "Merise 1 & 2",
+      "UML"
     ]
   },
   {
-    id: "backend",
-    icon: <FaServer className="text-blue-500 text-3xl" />,
+    id: "others",
+    icon: <FaServer className="text-indigo-500 text-3xl" />,
     title: "Backend Development",
     description: [
-      "Node.js",
-      "Express",
-      "Laravel",
-      ".NET Core",
-      "RESTful APIs"
+      "Programmation linéaire",
+      "MVC",
+      "MVT",
+      "POO",
+      "STATISTIQUE",
+      "ECONOMIE",
+      "COMPTABILITÉ",
+      "OSI",
+      "TCP/IP",
+      "VS CODE",
+      "GIT",
+      "VISUAL STUDIO"
     ]
   }
 ];
+  
+ 
+  
 
 const About = () => {
   const [selectedSkill, setSelectedSkill] = useState(skills[0]);
